@@ -1,85 +1,103 @@
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Finn Baldwin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Finn Baldwin</h1>
+    <p>Finn.Baldwin369@gmail.com | 603.832.3552 | Gilmanton, NH 03237</p>
+  </header>
 
-header, footer {
-  background-color: #222;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 1.5rem;
-}
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="about.html">About Me</a></li>
+    </ul>
+  </nav>
 
-section {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1.5rem 2rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
+  <section>
+    <h2>Personal Summary</h2>
+    <p>
+      Recent computer science graduate with a strong foundation in both tech and criminal justice, looking to bring my skills into a hands-on role.
+      I have a strong understanding of protocols like TCP, UDP, HTTP, and more. I've worked with languages like Python and JavaScript, built projects
+      in NetBeans, and studied everything from cybersecurity to homeland security. I've also spent time tutoring, working in security, and taking on
+      leadership roles in college and in my local community. I am someone who works well with others, takes initiative, and stays committed to
+      learning. I'm ready to take what I've learned in school and apply it in a real-world environment, where I can keep growing.
+    </p>
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+    <h2>Skills and Courses</h2>
+    <ul>
+      <li>Python, JavaScript, NetBeans</li>
+      <li>Data structures and algorithms, Data analysis</li>
+      <li>Computer architecture</li>
+      <li>Cybersecurity fundamentals, Cryptology and network security</li>
+      <li>Firewalls, Security systems, Access control, Surveillance</li>
+      <li>Policies and Procedures of Homeland Security</li>
+      <li>Criminal Justice in the U.S., Advanced criminology, Terrorism</li>
+    </ul>
 
-ul li {
-  margin: 10px 0;
-}
+    <h2>Experience</h2>
 
-a {
-  color: #0066cc;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+    <h3>Northeast Security Agency | Alton, NH — Security Officer (06/2025 - Current)</h3>
+    <ul>
+      <li>Prepared detailed reports regarding daily activities, unusual occurrences, and any other issues</li>
+      <li>Responded to alarms and conducted investigations as required</li>
+      <li>Operated communication systems between officers stationed throughout the facility</li>
+      <li>Enforced access control measures in accordance with established procedures</li>
+    </ul>
 
-a:hover, a:focus {
-  color: #004a99;
-  text-decoration: underline;
-}
+    <h3>Gunstock Mountain Resort | Gilford, NH — Lift Captain (12/2024 - 02/2025)</h3>
+    <ul>
+      <li>Supervised a crew of employees to safely conduct work in a positive way</li>
+      <li>Recorded daily lift statistics and performed routine maintenance checks</li>
+    </ul>
 
-/* Navigation Menu */
+    <h3>Supervised Field Experience | Keene, NH — Tutor (09/2024 - 01/2025)</h3>
+    <ul>
+      <li>Assisted the professor in grading students' programming projects and assignments</li>
+      <li>Helped students develop critical thinking skills through interactive dialogue</li>
+    </ul>
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  background-color: #222;
-  padding: 0;
-  margin: 0;
-}
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Keene State University</strong> – B.S. in Computer Science (05/2025)</li>
+      <li><strong>Keene State University</strong> – B.A. in Criminal Justice (05/2024)</li>
+      <li><strong>Tilton School</strong> – Post Graduate Year (05/2019)</li>
+    </ul>
 
-nav li {
-  margin: 0 1.2rem;
-}
+    <h2>Volunteer Experience & Community Service</h2>
 
-nav a {
-  display: block;
-  padding: 1rem 0;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
-}
+    <h3>Gilmanton Historical Society | Gilmanton, NH (Aug 2019 – Present)</h3>
+    <ul>
+      <li>Volunteer at events and fundraisers, help maintain the museum</li>
+      <li>Support website programming and historical preservation projects</li>
+    </ul>
 
-nav a:hover, nav a:focus {
-  background-color: #444;
-  outline: none;
-  color: #ffd700;  /* Gold highlight on hover */
-}
+    <h3>Tau Kappa Epsilon Fraternity | Keene, NH (Sep 2020 – Present)</h3>
+    <ul>
+      <li>Historian, Membership Development VP, and fundraiser organizer</li>
+      <li>Ran media profile and facilitated events for St. Jude and other causes</li>
+    </ul>
 
-/* Responsive tweak */
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-  }
+    <h2>Certifications</h2>
+    <ul>
+      <li>Tech+ Certificate (Expected by September 2025)</li>
+    </ul>
 
-  nav li {
-    margin: 0.5rem 0;
-  }
-}
+    <h2>Languages</h2>
+    <ul>
+      <li>French: Limited</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Finn Baldwin</p>
+  </footer>
+</body>
+</html>
